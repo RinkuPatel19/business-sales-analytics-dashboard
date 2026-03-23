@@ -83,14 +83,16 @@ The dataset includes multiple business tables:
 
 ## Project Files
 - powerbi_sales_dashboard.pbix  
-- sales_data_2020.xlsx  
-- sales_data_2021.xlsx  
-- sales_data_2022.xlsx  
-- customer_lookup.xlsx  
-- product_lookup.xlsx  
-- calendar_lookup.xlsx  
-- returns_data.xlsx  
-- territory_lookup.xlsx  
+- calendar_lookup.csv  
+- customer_lookup.csv  
+- product_lookup.csv  
+- product_categories_lookup.csv  
+- product_subcategories_lookup.csv  
+- returns_data.csv  
+- territory_lookup.csv  
+- sales_data_2020.csv  
+- sales_data_2021.csv  
+- sales_data_2022.csv   
 
 ## How to Use
 1. Open the .pbix file in Power BI Desktop  
