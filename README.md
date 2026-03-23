@@ -8,32 +8,28 @@
 This project presents an interactive Power BI dashboard designed to analyze sales performance, customer behavior, product trends, and regional distribution. It transforms raw business data into meaningful insights to support data-driven decision-making.
 
 ## Problem Statement
-Businesses generate large volumes of sales data, but without proper visualization, it becomes difficult to identify trends, track performance, and optimize operations.
-
-This project aims to:
-- Monitor business performance using KPIs  
-- Analyze customer and product trends  
-- Identify growth opportunities  
+Businesses generate large volumes of sales data, but without proper visualization, it becomes difficult to track performance, identify trends, and make informed decisions. This project aims to solve this problem by building an interactive dashboard that provides clear insights into business operations.
 
 ## Tools & Technologies
-- Power BI (Dashboard Development)  
-- DAX (Calculated Measures & KPIs)  
-- Power Query (Data Transformation)  
-- Microsoft Excel (Data Source)  
+- Power BI  
+- DAX  
+- Power Query  
+- Microsoft Excel  
 - Data Modeling  
 
 ## Dataset
-- Sales Dataset (2020–2022)  
+The dataset includes multiple business tables:
+- Sales Data (2020–2022)  
 - Customer Data  
 - Product & Category Data  
 - Territory Data  
 - Returns Data  
 
 ## Key Metrics
-- 💰 Revenue: **$24.9M**  
-- 📈 Profit: **$10.5M**  
-- 📦 Orders: **25.2K**  
-- 🔁 Return Rate: **2.2%**  
+- Revenue: $24.9M  
+- Profit: $10.5M  
+- Orders: 25.2K  
+- Return Rate: 2.2%  
 
 ## Dashboard Features
 
@@ -42,46 +38,48 @@ This project aims to:
 - Monthly performance tracking  
 - Orders by category  
 
-### Product Insights
-- Top products by revenue  
-- Most ordered product categories  
-- Most returned products  
+### Product Analysis
+- Top 10 products by revenue  
+- Most ordered product type (Tires and Tubes)  
+- Most returned product type (Shorts)  
 
 ### Customer Insights
-- Revenue per customer  
-- Customer segmentation  
-- Orders by income and occupation  
+- Total customers: 17.4K  
+- Revenue per customer: $1,431  
+- Top customer: Mr. Maurice Shan  
+- Customer segmentation by income and occupation  
 
 ### Geographic Analysis
-- Regional sales distribution  
+- Sales distribution across regions  
 - Interactive map visualization  
+- Region-based filtering  
 
 ## Visualizations
 
 ### Executive Dashboard
-<img src="dashboard_overview.png" width="600">
-  
-### Sales Analysis
-<img src="sales_analysis.png" width="500">
-  
-### Product Performance
-<img src="product_analysis.png" width="500">
+<img src="executive-dashboard.png" width="600">
+
+### Product & Sales Analysis
+<img src="product-Insights.png" width="600">
+
+### Geographic Analysis
+<img src="geographic-analysis.png" width="600">
 
 ### Customer Insights
-<img src="customer_insights.png" width="500">
+<img src="customer-insights.png" width="600">
 
 ## Key Insights
-- Accessories and Bikes generate the highest number of orders  
-- Tires and Tubes are the most ordered product type  
-- Shorts are the most returned product category  
-- Revenue shows a steady upward trend from 2020 to 2022  
-- Higher revenue contribution from professional customers  
+- Revenue shows consistent growth over time  
+- Accessories and Bikes drive the highest sales  
+- Certain products have higher return rates  
+- Professional customers contribute higher revenue  
+- Seasonal trends impact sales performance  
 
 ## Business Impact
-- Enables real-time monitoring of sales performance  
-- Helps identify top-performing products  
-- Supports customer targeting and segmentation  
-- Improves strategic decision-making  
+- Enables monitoring of business KPIs  
+- Helps identify high-performing products and customers  
+- Supports data-driven decision-making  
+- Improves overall business strategy  
 
 ## Project Files
 - powerbi_sales_dashboard.pbix  
@@ -95,16 +93,16 @@ This project aims to:
 - territory_lookup.xlsx  
 
 ## How to Use
-1. Open `.pbix` file in Power BI Desktop  
+1. Open the .pbix file in Power BI Desktop  
 2. Load dataset if required  
-3. Use filters and slicers to explore dashboard  
+3. Use filters and slicers to explore insights  
 
 ## Future Improvements
-- Add real-time data integration  
-- Deploy dashboard on Power BI Service  
-- Add forecasting models  
-- Enhance drill-down analysis  
+- Real-time data integration  
+- Dashboard deployment on Power BI Service  
+- Predictive analytics  
+- Enhanced drill-down features  
 
 ## Author
-**Rinku Patel**  
+Rinku Patel  
 Data Analyst | Power BI | SQL | Python | Tableau  
